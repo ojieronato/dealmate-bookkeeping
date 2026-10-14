@@ -1,0 +1,11 @@
+{
+  "name": "@dealmate/bookkeeping",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Isolated DealMate bookkeeping core, reference interface, and CRM integration contract.",
+  "exports": { ".": "./src/index.mjs", "./ui": "./src/finance-element.mjs" },
+  "scripts": { "test": "node --test", "start": "node scripts/serve.mjs", "check": "node scripts/check.mjs" },
+  "engines": { "node": ">=22" },
+  "files": ["src", "docs", "README.md", "INTEGRATE.md"]
+}
